@@ -1,0 +1,5 @@
+set_input_delay -max 1.0 [get_ports "jk"]
+set_input_delay -max 1.0 [get_ports "en"]
+set_input_delay -max 1.0 [get_ports "rst"]
+set_output_delay -max 1.0 [get_ports "q"]
+set_output_delay -max 1.0 [get_ports "qb"]
